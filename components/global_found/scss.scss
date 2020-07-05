@@ -1,0 +1,51 @@
+.global_found {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background: url(/img/search-2.jpg) 50% 100% fixed;
+  .tab_title {
+    display: flex;
+    .tab_item {
+      width: 25%;
+      padding-right: 5px;
+      .tab_block {
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: $color_blue;
+        font-family: $font_maria_regular;
+        font-size: 15px;
+        cursor: pointer;
+        transition: .7s;
+        background-color: rgba(255,255,255,.9);
+      }
+      .active_tab {
+        background-color: $color_white!important;
+      }
+    }
+    .tab_item:last-child {
+      padding-right: 0px;
+    }
+  }
+  .search_line {
+    text-align: center;
+    background: $color_white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    .main_find_input {
+      height: 40px;
+      width: 250px;
+      text-align: center;
+      border: none;
+    }
+  }
+  .section_block_desc {
+    padding-top: 20px;
+    text-align: center;
+    color: $color_white;
+    font-size: 15px;
+    font-family: $font_open_sans;
+  }
+}

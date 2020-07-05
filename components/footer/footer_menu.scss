@@ -1,0 +1,29 @@
+.footer_menu {
+  background: $color_black_gray;
+  .footer_menu_wrapper {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    .footer_menu_item {
+      padding-left: 10px;
+      padding-right: 10px;
+      border-right: 1px solid rgba(255,255,255,.4);
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-family: $font_maria_regular;
+        font-size: 14px;
+        transition: .7s;
+      }
+    }
+    .footer_menu_item:last-child {
+      border-right: none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.contacts_map {
+  padding: 20px;
+  padding-bottom: 20px;
+  .contacts_row {
+    display: flex;
+    .contacts_map_left, .contacts_map_right {
+      width: 50%;
+    }
+    .contacts_map_right {
+      padding-left: 15px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.list_services{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .list_services_row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .service_item {
+    font-family: $font_open_sans;
+    display: flex;
+    width: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .service_item_img {
+    padding-right: 10px;
+    max-width: 14px;
+    max-height: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-right: 3px;
+  }
+  .service_item_link {
+    padding-left: 10px;
+    padding-right: 10px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-family: $font_open_sans;
+    a{
+      transition: .7s;
+      text-decoration: none;
+      display: inline-block;
+      font-family: $font_open_sans;
+      font-weight: 400;
+      color: $color_blue;
+      position: relative;
+    }
+  }
+}

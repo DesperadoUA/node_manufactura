@@ -1,0 +1,24 @@
+.staff_banner {
+  background: url(/img/doc_bg.jpg) top center no-repeat;
+  .breadcrump_wrapper {
+    margin-top: 0px;
+  }
+}
+.staff_banner_wrapper{
+  display: flex;
+  .staff_banner_left, .staff_banner_right {
+    width: 50%;
+  }
+  .main_banner_desc {
+    width: 100%;
+    margin-bottom: 75px;
+    p {
+      font-family: $font_open_sans;
+      font-weight: 400;
+      line-height: 24px;
+      font-size: 17px;
+      color: $color_white;
+      margin-bottom: 15px;
+    }
+  }
+}

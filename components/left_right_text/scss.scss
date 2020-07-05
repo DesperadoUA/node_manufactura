@@ -1,0 +1,16 @@
+.left_right_text {
+  padding: 20px;
+  padding-bottom: 20px;
+  .left_right_text_row {
+    display: flex;
+    .left_right_text_left, .left_right_text_right {
+      width: 50%;
+    }
+    .left_right_text_right {
+      padding-left: 15px;
+    }
+    .left_right_text_left {
+      padding-right: 15px;
+    }
+  }
+}

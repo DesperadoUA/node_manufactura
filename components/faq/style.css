@@ -1,0 +1,9 @@
+.faq_close {
+    height: 100px;
+    width: 100px;
+    background: url("/wp-content/themes/myWorld/components/faq/img/faq_close.png") 100% 100%;
+    border: 1px solid red;
+    background-size: contain;
+    margin: 0 auto;
+    color: blue;
+}

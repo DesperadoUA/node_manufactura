@@ -1,0 +1,123 @@
+.price_accordions {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .price_accordeon {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    min-height: 45px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding-left: 55px;
+    font-family: $font_maria_regular;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.1em;
+    text-align: left;
+    padding-top: 10px;
+    color: $color_blue;
+    display: flex;
+    cursor: pointer;
+    background: $color_gray;
+  }
+  .price_cross {
+    text-align: left;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 900;
+    color: $color_red;
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+    padding-top: 4px;
+  }
+  .accordeon_title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.1em;
+    text-align: left;
+    color: $color_blue;
+    cursor: pointer;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+  }
+  .price_wrapper {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: none;
+  }
+  .price_box {
+    box-sizing: inherit;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .price_row {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .price_row_title {
+    box-sizing: inherit;
+    margin: 0;
+    width: 75%;
+    border: 1px solid $color_gray;
+    background: $color_white;
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    font-family: $font_maria_regular;
+    font-weight: 300;
+  }
+  .price_row:nth-child(1) .price_row_title {
+    box-sizing: inherit;
+    margin: 0;
+    width: 75%;
+    border: 1px solid $color_gray;
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    font-family: $font_maria_regular;
+    background: $color_blue;
+    color: $color_white;
+    font-weight: 400;
+    padding-left: 15px;
+  }
+  .price_row:nth-child(1) .price_number {
+    box-sizing: inherit;
+    margin: 0;
+    width: 25%;
+    border: 1px solid $color_gray;
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    font-family: $font_maria_regular;
+    background: $color_blue;
+    font-weight: 400;
+    padding-left: 15px;
+    color: $color_white;
+  }
+  .price_number {
+    box-sizing: inherit;
+    margin: 0;
+    width: 25%;
+    border: 1px solid $color_gray;
+    background: $color_white;
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    font-family: $font_maria_regular;
+    font-weight: 300;
+    color: $color_red;
+  }
+  .price_title {
+    line-height: 24px;
+    text-align: center;
+    font-family: $font_maria_regular;
+    font-weight: 300;
+    font-size: 30px;
+    color: $color_blue;
+    margin-bottom: 45px;
+  }
+}

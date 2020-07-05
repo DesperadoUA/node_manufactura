@@ -1,0 +1,18 @@
+<section class="main_news">
+    <div class="news_wrapper">
+        <div class="news_wrapper_left">
+            <p class="news_wrapper_title">Новини</p>
+            <p class="all_link"><a href="/news/" class="background_white">всі новини</a></p>
+            <div class="litle_card_wrapper">
+               {{#cardNewsMainPage news}}{{/cardNewsMainPage}}
+            </div>
+        </div>
+        <div class="news_wrapper_right">
+            <p class="news_wrapper_title">Статті</p>
+            <p class="all_link"><a href="/blog/" class="background_white">всі статті</a></p>
+            <div class="litle_card_wrapper">
+                {{#cardNewsMainPage blog}}{{/cardNewsMainPage}}
+            </div>
+        </div>
+    </div>
+</section>

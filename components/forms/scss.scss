@@ -1,0 +1,126 @@
+.pop_up {
+  background: rgba(0,0,0,0.7);
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  justify-content: center;
+  padding-top: 100px;
+  top:0px;
+  left:0px;
+  position: fixed;
+  z-index: 13;
+  align-items: flex-start;
+}
+.wrapper_form {
+  background: white;
+  width: 700px;
+  position: relative;
+  padding: 20px;
+}
+.close {
+  position: absolute;
+  top:15px;
+  right: 15px;
+  width: 25px;
+  height: 25px;
+  background: $color_blue;
+  color: $color_white;
+  border-radius: 50%;
+  text-align: center;
+  font-size:25px;
+  line-height: 25px;
+  cursor: pointer;
+  &:hover {
+    background: $color_red;
+  }
+}
+.title_form {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: $font_maria_regular;
+  font-weight: 300;
+  color: $color_blue;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.form_row {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+.form_input {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: $font_maria_regular;
+  width: 250px;
+  height: 35px;
+  border: 0 solid $color_white;
+  border-bottom: 1px solid $color_blue;
+  background: $color_white;
+  border-radius: 0;
+  font-size: 18px;
+  color: $color_black;
+  &:focus {
+    border-bottom: 1px solid $color_blue!important;
+  }
+}
+.form_wrapper_textarea {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
+}
+.form_textarea {
+  box-sizing: inherit;
+  margin: 0;
+  outline: 0;
+  height: 112px;
+  border: 1px solid $color_blue;
+  background: $color_white;
+  border-radius: 0;
+  font-size: 25px;
+  color: $color_black;
+  width: 100%;
+  padding: 10px;
+  &:focus {
+    border: 1px solid $color_blue!important;
+  }
+}
+.form_wrapper_submit {
+  padding: 10px 0px;
+  justify-content: center;
+  display: flex;
+}
+.form_submit {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  font-family: $font_maria_regular;
+  width: 210px;
+  height: 50px;
+  color: $color_white;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: $color_blue;
+  border-radius: 0;
+  border: 0 solid $color_white;
+  transition: .7s;
+  cursor: pointer;
+  &:hover {
+    background: $color_red;
+  }
+}
+.show{
+  display: flex;
+}

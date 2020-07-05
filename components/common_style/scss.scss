@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: $font_roboto;
+}
+.container {
+  width: 90%;
+  max-width: $content_width;
+  margin: 0 auto;
+}
+h1 {
+  font-family: $font_maria_regular;
+}
+ol, ul {
+  color: $color_black;
+  font-family: $font_open_sans;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 17px;
+  list-style: none;
+}
+input:active, input:focus, textarea:active, textarea:focus {
+  border: none;
+  outline: 0;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.color_red {
+  color: $color_red!important;
+}
+.color_blue {
+  color: $color_blue!important;
+}

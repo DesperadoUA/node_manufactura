@@ -1,0 +1,10 @@
+.category_staff {
+  background: $color_white;
+  .category_doc_item {
+    width: 25%;
+  }
+  .category_doc_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

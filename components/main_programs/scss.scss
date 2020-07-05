@@ -1,0 +1,141 @@
+.main_programs {
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.program_wrapper {
+  display: flex;
+  .program_left, .program_right {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    padding-top: 115px;
+    padding-bottom: 160px;
+    background: $color_gray;
+    width: 50%;
+    .program_title {
+      box-sizing: inherit;
+      padding: 0;
+      margin: 0;
+      margin-bottom: 25px;
+      font-family: $font_maria_regular;
+      font-weight: 300;
+      font-size: 33px;
+      line-height: 1.1;
+      text-align: center;
+    }
+
+  }
+  .all_programs {
+    color: $color_black;
+    margin-bottom: 25px;
+    text-align: center;
+    a {
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      box-sizing: inherit;
+      margin: 0;
+      transition: .7s;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-family: $font_maria_regular;
+      font-size: 11px;
+      letter-spacing: 1px;
+      border-radius: 30px;
+      color: $color_white;
+      &:hover{
+        background: $color_white;
+        color: $color_blue;
+      }
+    }
+  }
+  .program_list_wrapper {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .big_card {
+      width: 95%;
+      height: auto;
+      max-height: 530px;
+      display: flex;
+      margin-bottom: 20px;
+      box-shadow: 4px 4px 2px 0 rgba(0,0,0,.07);
+      -webkit-transition: 1s;
+      transition: 1s;
+      background: $color_white;
+      .big_card_left {
+        max-width: 40%;
+        overflow: hidden;
+        position: relative;
+        img{
+          display: block;
+        }
+        .card_edge {
+          position: absolute;
+          z-index: 2;
+          top: 0;
+          right: 0;
+          max-width: 40px;
+          height: 100%;
+          width: 100%;
+          display: block;
+        }
+      }
+      .big_card_right {
+        width: 60%;
+        background: $color_white;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+      }
+      .big_card_right_wrapper {
+        padding-right: 50px;
+        padding-left: 15px;
+      }
+      .program_text_second {
+        line-height: 24px;
+        color: $color_blue;
+        font-family: $font_maria_regular;
+        font-weight: 400;
+        font-size: 22px;
+        margin-bottom: 10px;
+        text-align: left;
+      }
+      .program_text_third {
+        text-align: justify;
+        color: $color_black;
+        font-family: $font_open_sans;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 17px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+.color_blue {
+  color: $color_blue;
+}
+.color_red, .background_red {
+  color: $color_red;
+}
+.background_blue {
+  background: $color_blue;
+}
+.background_red {
+  background: $color_red;
+}
+.card_edge {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  max-width: 40px;
+  height: 100%;
+  width: 100%;
+  display: block;
+}

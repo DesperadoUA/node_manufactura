@@ -1,0 +1,20 @@
+.pay_online {
+  width: 180px;
+  height: 45px;
+  font-family: $font_open_sans;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: $color_white;
+  transition: .7s;
+  cursor: pointer;
+  background: $color_blue;
+  margin-bottom: 310px;
+  display: inline-block;
+  line-height: 45px;
+  text-decoration: none;
+  text-align: center;
+  &:hover {
+    background: $color_red;
+  }
+}

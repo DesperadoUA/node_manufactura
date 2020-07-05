@@ -1,0 +1,79 @@
+.packages_programs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.packages_programs_row {
+  display: flex;
+}
+.program_item_wrapper {
+  width: 33.3%;
+  padding: 15px;
+}
+.program_item {
+  border: 1px solid $color_red;
+  box-shadow: 12px 12px 4px 0 rgba(0,0,0,.07);
+  transition: .7s;
+}
+.program_item_title {
+  color: $color_red;
+  font-family: $font_maria_regular;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 1.3;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 65px;
+  padding-bottom: 45px;
+}
+.program_item_desc {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  ul{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+.program_item_price {
+  transition: .7s;
+  background: $color_red;
+  padding: 20px;
+  color: $color_white;
+  font-family: $font_maria_regular;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.3;
+  text-align: center;
+}
+.program_item_last {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 40px 60px 80px;
+  p {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: $font_open_sans;
+    font-weight: 400;
+    color: #9b7373;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.program_item_buy a{
+  text-align: center;
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  transition: .7s;
+  color: $color_red;
+  font-family: $font_maria_regular;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  text-decoration: underline;
+}

@@ -1,0 +1,184 @@
+.button_style_header {
+  width: 175px;
+  height: 40px;
+  font-family: $font_open_sans;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1em;
+  color: $color_white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: .7s;
+  transition: .7s;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button_style {
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  color: $color_white;
+}
+.background_support {
+  background: rgba(0,151,176,.5);
+}
+.background_main {
+  background: $color_blue;
+}
+.slider_button {
+  width: 180px;
+  height: 54px;
+}
+.button_style_program_blue {
+  width: 175px;
+  font-family: $font_open_sans;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1em;
+  color: $color_white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .7s;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: $color_blue;
+  height: 50px;
+}
+.button_style_program_red {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  width: 175px;
+  font-family: $font_open_sans;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1em;
+  color: $color_white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .7s;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: $color_red;
+  height: 50px;
+}
+.button_footer_style {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  width: 165px;
+  height: 40px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: 0 0;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Open Sans,sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1em;
+  transition: .7s;
+}
+.service_button_red {
+  width: 260px;
+  height: 55px;
+  background: $color_red!important;
+  color: $color_white!important;
+  border: none;
+  cursor: pointer;
+  transition: .7s;
+  font-family: $font_open_sans;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 55px;
+  text-align: center;
+  &:hover {
+    background: $color_blue!important;
+    color: $color_white!important;
+  }
+}
+.service_button_blue {
+  width: 260px;
+  height: 55px;
+  background: $color_blue!important;
+  color: $color_white!important;
+  border: none;
+  cursor: pointer;
+  transition: .7s;
+  font-family: $font_open_sans;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 55px;
+  text-align: center;
+  &:hover {
+    background: $color_red!important;
+    color: $color_white!important;
+  }
+}
+.vacancy_button {
+  font-family: $font_open_sans;
+  font-weight: 400;
+  line-height: 24px;
+  box-sizing: inherit;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 5px;
+  display: inline-block;
+  transition: .7s;
+  cursor: pointer;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  padding: 10px 20px;
+  background: rgba(241,91,90,.6);
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  color: $color_white;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: none;
+  &:hover {
+    background: $color_blue;
+  }
+}
+.doc_button {
+  text-transform: uppercase;
+  color: $color_white;
+  background: $color_blue;
+  cursor: pointer;
+  width: 260px;
+  height: 50px;
+  margin-top: 30px;
+  transition: .7s;
+  border: none;
+  &:hover {
+    background: $color_red;
+  }
+}
+.button_qa {
+  margin: 10px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: $color_white;
+  font-size: 10px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: .7s;
+  cursor: pointer;
+  background: $color_blue;
+  &:hover {
+    background: $color_red;
+  }
+}

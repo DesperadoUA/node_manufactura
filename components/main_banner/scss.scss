@@ -1,0 +1,28 @@
+.main_banner {
+  padding-top: 285px;
+  min-height: 800px;
+  background: url(/img/about_bg.jpg) top center no-repeat;
+  height: 800px;
+  h1 {
+    transition: 1s;
+    color: $color_white;
+    font-size: 52px;
+    font-family: $font_maria_regular;
+    margin-bottom: 20px;
+    font-weight: 900;
+  }
+  .main_banner_desc {
+    width: 40%;
+    font-weight: 400;
+    transition: 1s;
+    color: $color_white;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: left;
+    font-family: $font_open_sans;
+    margin-bottom: 180px;
+  }
+  .main_banner_wrapper_title{
+    width: 50%;
+  }
+}

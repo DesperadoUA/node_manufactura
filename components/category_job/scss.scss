@@ -1,0 +1,54 @@
+.category_job {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .job_item {
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 2px 0 rgba(0,0,0,.07);
+    padding: 60px 90px;
+    background: $color_white;
+    .job_date {
+      text-align: justify;
+      line-height: 24px;
+      color: $color_red;
+      font-family: $font_open_sans;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .job_name {
+      text-align: justify;
+      line-height: 24px;
+      margin-bottom: 25px;
+      color: $color_blue;
+      font-family: $font_maria_regular;
+      font-weight: 400;
+      font-size: 22px;
+    }
+    .job_link {
+      margin-bottom: 25px;
+      p {
+        text-align: justify;
+        color: $color_black;
+        font-family: $font_open_sans;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 17px;
+      }
+      span {
+        margin-top: 20px;
+        line-height: 24px;
+        color: $color_white;
+        font-family: $font_open_sans;
+        font-size: 15px;
+        font-weight: 400;
+        transition: .7s;
+        display: inline-block;
+        padding: 10px 20px;
+        background: $color_red;
+        cursor: pointer;
+      }
+    }
+  }
+}

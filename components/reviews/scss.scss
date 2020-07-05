@@ -1,0 +1,95 @@
+.reviews {
+  background-color: $color_gray;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  opacity: 1!important;
+  transition: 1s;
+  .container_review {
+    display: flex;
+    width: 100%;
+    transition: 0.7s;
+  }
+  .box_reviews {
+    overflow: hidden;
+  }
+  .reviews_title {
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: $font_maria_regular;
+    font-weight: 300;
+    font-size: 30px;
+    color: $color_blue;
+  }
+  .wrapper_reviews {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .slider_review_left {
+    position: absolute;
+    top: 80px;
+    width: 25px;
+    height: 25px;
+    background: $color_red;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    left: -60px;
+  }
+  .slider_review_right {
+    position: absolute;
+    top: 80px;
+    width: 25px;
+    height: 25px;
+    background: $color_red;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    right: -60px;
+  }
+  .item_review_text p{
+    color: $color_black;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: $font_giorgia;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    font-style: italic;
+  }
+  .item_review_name {
+    line-height: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: $font_maria_regular;
+    font-weight: 300;
+    font-size: 17px;
+    color: $color_blue;
+  }
+  .all_link {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 17px;
+    margin-bottom: 25px;
+    text-align: center;
+    a {
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      text-decoration: none;
+      background: $color_white;
+      transition: .7s;
+      padding: 10px 20px;
+      font-family: $font_maria_regular;
+      font-size: 11px;
+      letter-spacing: 1px;
+      border-radius: 30px;
+      color: $color_blue;
+    }
+  }
+}

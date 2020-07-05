@@ -1,0 +1,16 @@
+@import "header_section_one.scss";
+@import "header_section_two.scss";
+@import "header_section_three.scss";
+
+.header
+{
+  display: block;
+  background-color: rgba(255,255,255,.1);
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,.08);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 12;
+  transition: .7s;
+}

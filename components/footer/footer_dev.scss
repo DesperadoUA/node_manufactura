@@ -1,0 +1,17 @@
+.footer_dev {
+  text-align: center;
+  padding-bottom: 20px;
+  a {
+    text-align: center;
+    font-family: $font_open_sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    transition: .7s;
+    text-decoration: none;
+    color: $color_white;
+  }
+}

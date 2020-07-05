@@ -1,0 +1,94 @@
+.header_section_2{
+  box-sizing: inherit;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  -webkit-box-flex: 0;
+  display: flex;
+  .header_section_2_item:nth-child(1) {
+    width: 21%;
+  }
+  .header_section_2_item:nth-child(2) {
+    width: 45%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    .size_24 {
+      width: 84px;
+      margin-right: 45px;
+    }
+    .tel_block {
+      .tel_header {
+        font-family: $font_maria_regular;
+        font-weight: 700;
+        font-size: 17px;
+        color: $color_white;
+      }
+      .tel_header span {
+        color: $color_light_blue;
+      }
+    }
+    .header_login {
+      padding-left: 35px;
+      text-align: center;
+      .login_list {
+        margin-bottom: 12px;
+        li {
+          display: inline-block;
+          padding-left: 5px;
+          padding-right: 5px;
+          a {
+            text-transform: uppercase;
+            color: $color_white;
+            font-family: $font_open_sans;
+            font-weight: 400;
+            font-size: 11px;
+            letter-spacing: 1px;
+            text-decoration: none;
+          }
+        }
+        li:first-child {
+          border-right: 1px solid rgba(255,255,255,.4);
+        }
+      }
+      .find_input_header {
+        height: 25px;
+        width: 245px;
+        border: none;
+        border-radius: 30px;
+        background: rgba(255,255,255,.4);
+        text-align: center;
+        font-family: $font_open_sans;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1em;
+        color: $color_white;
+      }
+       input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+         font-family: $font_open_sans;
+         color: $color_white;
+      }
+       input::-moz-placeholder { /* Firefox 19+ */
+         font-family: $font_open_sans;
+         color: $color_white;
+      }
+       input:-ms-input-placeholder { /* IE 10+ */
+         font-family: $font_open_sans;
+         color: $color_white;
+      }
+      input:-moz-placeholder { /* Firefox 18- */
+        font-family: $font_open_sans;
+        color: $color_white;
+      }
+    }
+  }
+  .header_section_2_item:nth-child(3) {
+    width: 34%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,62 @@
+.container_qa{
+  position: relative;
+  box-shadow: 4px 4px 2px 0 rgba(0,0,0,.07);
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 90px;
+  .asc {
+    margin: 0;
+    padding: 40px 90px 15px;
+    background: $color_white;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .ansver {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 40px 90px 65px;
+    background: $color_gray;
+    img {
+      border-radius: 50%;
+    }
+  }
+  .asc_wrapper {
+    display: flex;
+    .name {
+      padding-left: 20px;
+      line-height: 50px;
+      margin-bottom: 0;
+      color: $color_red;
+      font-family: $font_maria_regular;
+      font-weight: 400;
+      font-size: 22px;
+    }
+  }
+  .text_asc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: $font_giorgia;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.7;
+    font-style: italic;
+  }
+  .ansver_wrapper {
+    display: flex;
+    .ansver_logo {
+      min-width: 70px;
+    }
+    .ansver_text {
+      p {
+        text-align: justify;
+        font-family: $font_open_sans;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 17px;
+        color: $color_blue;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
